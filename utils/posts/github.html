@@ -1,0 +1,45 @@
+<div>
+  <h1 class="text-center">Github</h1>
+  <div class="content">
+    If your template.html file is just HTML and not a <i>React component</i>,
+    then you can't require it in the same way you would do with a JS file.
+    However, if you are using <a href="#">Browserify</a> — there is a transform
+    called stringify which will allow you to require non-js files as strings.
+    Once you have added the transform, you will be able to require HTML files
+    and they will export as though they were just <em>strings</em>. Once you
+    have required the HTML file, you'll have to inject the HTML string into your
+    component, using the dangerouslySetInnerHTML prop.
+    <table>
+       
+      <tr>
+           
+        <th>Company</th>
+           
+        <th>Contact</th>
+           
+        <th>Country</th>
+         
+      </tr>
+       
+      <tr>
+           
+        <td>Alfreds Futterkiste</td>
+           
+        <td>Maria Anders</td>
+           
+        <td>Germany</td>
+         
+      </tr>
+       
+      <tr>
+           
+        <td>Centro comercial Moctezuma</td>
+           
+        <td>Francisco Chang</td>
+           
+        <td>Mexico</td>
+         
+      </tr>
+    </table>
+  </div>
+</div>

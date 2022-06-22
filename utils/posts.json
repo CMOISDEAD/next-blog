@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 0,
+      "title": "Github",
+      "content": "../github.html",
+      "timestamp": "yesterday",
+      "author": "camilo"
+    },
+    {
+      "id": 1,
+      "title": "Unix",
+      "content": "content post 2",
+      "timestamp": "yesterday",
+      "author": "camilo"
+    },
+    {
+      "id": 2,
+      "title": "Linux",
+      "content": "content post 3",
+      "timestamp": "1 year ago",
+      "author": "camilo"
+    },
+    {
+      "id": 3,
+      "title": "Node js",
+      "content": "content post 4",
+      "timestamp": "1 month ago",
+      "author": "camilo"
+    },
+    {
+      "id": 4,
+      "title": "Fuck",
+      "content": "content post 5",
+      "timestamp": "today",
+      "author": "camilo"
+    }
+  ]
+}
