@@ -4,7 +4,9 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand">Doom blog</a>
+        <Link href="/">
+          <a className="navbar-brand">Doom blog</a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

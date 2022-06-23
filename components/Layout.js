@@ -1,10 +1,11 @@
 import { Navbar } from "./Navbar";
+import "bootstrap/dist/css/bootstrap.css";
 
 export function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main className="container">{children}</main>
     </>
   );
 }
