@@ -1,0 +1,19 @@
+@import "./colors";
+
+div.card {
+  background: $gb-dm-bg0;
+  color: $gb-dm-fg0;
+
+  .card-title {
+    color: $gb-dm-fg1;
+    font-weight: bold;
+  }
+
+  .card-text > small.text-muted {
+    color: $gb-dm-fg4 !important;
+  }
+
+  &:hover {
+    border: 1px solid $gb-dm-bg3;
+  }
+}

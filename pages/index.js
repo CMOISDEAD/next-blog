@@ -1,34 +1,14 @@
 import { Layout } from "../components/Layout";
+import { Header } from "../components/Header";
+import { LastPost } from "../components/LastPost";
 
 export default function Home() {
   return (
     <>
       <Layout>
-        <div className="container">
-          <h1 className="text-center">Doom Dev</h1>
-          <div className="content">
-            Dolor totam veniam tempore nobis officiis Neque iste maxime sapiente
-            nulla nesciunt <em>Aliquam</em> consequuntur excepturi sint
-            repudiandae vitae explicabo. Odit deleniti quo eligendi consequatur
-            optio Totam voluptates beatae explicabo eos.
-          </div>
-          <div className="text-center">Hola</div>
-        </div>
+        <Header img="https://wallpapercave.com/wp/wp6689710.jpg" />
+        <LastPost />
       </Layout>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </>
   );
 }

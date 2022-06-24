@@ -1,0 +1,14 @@
+@import "./colors";
+
+nav.navbar {
+  background: $gb-dm-bg0 !important;
+  a {
+    color: $gb-dm-fg1 !important;
+    &:hover {
+      color: $gb-dm-fg2 !important;
+    }
+    &.active {
+      color: $gb-dm-fg4 !important;
+    }
+  }
+}

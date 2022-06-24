@@ -7,7 +7,7 @@ const { posts } = post_json;
 export default function Post({ title, content, timestamp, author }) {
   return (
     <Layout>
-      <div className="container">
+      <div className="post">
         <h1 className="text-center">{title}</h1>
         <p className="text-muted">{`${timestamp} - ${author}`}</p>
         <div className="content">{ReactHtmlParser(content)}</div>
@@ -22,6 +22,7 @@ export async function getStaticPaths() {
     return {
       params: {
         pid: item.id.toString(),
+        title: item.title,
       },
     };
   });

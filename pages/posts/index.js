@@ -7,13 +7,14 @@ const { posts } = post_json;
 export default function Blog() {
   return (
     <Layout>
-      <div className="row row-cols-1 row-cols-md-2 g-4 mt-3">
+      <h1 className="text-center">Posts</h1>
+      <div className="row row-cols-1 row-cols-md-2 g-4">
         {posts.map((post, i) => {
           return (
             <div className="col" key={i}>
-              <Link href={`/posts/${post.id}`}>
+              <Link href={`/posts/${post.id}?title=${post.title}`}>
                 <a>
-                  <div className="card mb-3" style={{ width: 40 + "vw" }}>
+                  <div className="card mb-3 h-100" style={{ width: "auto" }}>
                     <div className="row g-0">
                       <div className="col-md-8">
                         <div className="card-body">
