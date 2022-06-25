@@ -6,6 +6,7 @@ export const HomePosts = () => {
     <div className="my-1">
       <PinPosts />
       <LastPost />
+      <hr />
     </div>
   );
 };

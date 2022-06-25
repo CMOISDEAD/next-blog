@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MdDarkMode } from "react-icons/md";
 
 export const Navbar = () => {
   return (
@@ -33,6 +34,9 @@ export const Navbar = () => {
             </Link>
           </div>
         </div>
+        <button className="btn btn-borderless">
+          <MdDarkMode />
+        </button>
       </div>
     </nav>
   );

@@ -1,0 +1,51 @@
+// Buttons
+@import "./colors";
+
+.btn {
+  transition: all 0.5s ease-out !important;
+}
+
+.btn-primary {
+  background: $gb-dark-blue !important;
+  border: 1px solid $gb-dark-blue !important;
+  color: $gb-fg0 !important;
+
+  &:hover {
+    background: $gb-light-blue !important;
+    border: 1px solid $gb-light-blue !important;
+    color: $gb-bg0-hard !important;
+  }
+}
+
+.btn-success {
+  background: $gb-dark-green !important;
+  border: 1px solid $gb-dark-green !important;
+  color: $gb-fg0 !important;
+
+  &:hover {
+    background: $gb-light-green !important;
+    border: 1px solid $gb-light-green !important;
+    color: $gb-bg0-hard !important;
+  }
+}
+
+.btn-warning {
+  background: $gb-dark-yellow !important;
+  border: 1px solid $gb-dark-yellow !important;
+  color: $gb-fg0 !important;
+
+  &:hover {
+    background: $gb-light-yellow !important;
+    border: 1px solid $gb-light-yellow !important;
+    color: $gb-bg0-hard !important;
+  }
+}
+
+.btn-borderless {
+  border: 0 !important;
+  color: $gb-bg1 !important;
+
+  &:hover {
+    color: $gb-light-orange !important;
+  }
+}

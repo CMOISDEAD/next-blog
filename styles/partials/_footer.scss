@@ -2,12 +2,19 @@
 @import "./colors";
 
 .footer {
-  background: $gb-dm-bg0 !important;
+  background: $gb-bg0 !important;
+  padding: 0.4rem;
 
   .footer-box {
     display: flex;
     justify-content: space-between;
     justify-items: center;
+    align-items: center;
+    .right-mark {
+      .icon {
+        font-size: 1.5rem !important;
+      }
+    }
     .social-networks {
       font-size: 1.5rem;
       .social-link {
@@ -16,17 +23,17 @@
       }
       .github {
         &:hover {
-          color: $gb-dm-bg0-hard;
+          color: $gb-bg0-hard;
         }
       }
       .linkedin {
         &:hover {
-          color: $gb-dm-dark-blue;
+          color: $gb-dark-blue;
         }
       }
       .portfolio {
         &:hover {
-          color: $gb-dm-dark-aqua;
+          color: $gb-dark-aqua;
         }
       }
     }

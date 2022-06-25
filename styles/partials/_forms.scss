@@ -1,0 +1,17 @@
+// Forms
+@import "./colors";
+
+form {
+  input {
+    background: $gb-bg1 !important;
+    color: $gb-fg0 !important;
+    border: 1px solid $gb-bg2 !important;
+
+    &:focus {
+      border: 1px solid $gb-bg3 !important;
+    }
+  }
+  .form-text {
+    color: $gb-fg4 !important;
+  }
+}

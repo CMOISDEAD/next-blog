@@ -3,11 +3,11 @@
 
 div.card {
   transition: all 0.5s ease-out;
-  background: $gb-dm-bg0;
-  color: $gb-dm-fg0;
+  background: $gb-bg0;
+  color: $gb-fg0;
 
   .card-title {
-    color: $gb-dm-fg1;
+    color: $gb-fg1;
     font-weight: bold;
   }
 
@@ -18,10 +18,10 @@ div.card {
   }
 
   .card-text > small.text-muted {
-    color: $gb-dm-fg4 !important;
+    color: $gb-fg4 !important;
   }
 
   &:hover {
-    border: 1px solid $gb-dm-bg3;
+    border: 1px solid $gb-bg3;
   }
 }

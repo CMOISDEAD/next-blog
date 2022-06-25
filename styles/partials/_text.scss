@@ -1,27 +1,33 @@
 // Text
 @import "./colors";
 
+.text-normal {
+  color: $gb-fg0 !important;
+}
 .text-red {
-  color: $gb-dm-dark-red !important;
+  color: $gb-dark-red !important;
 }
 .text-green {
-  color: $gb-dm-dark-green !important;
+  color: $gb-dark-green !important;
 }
 .text-yellow {
-  color: $gb-dm-dark-yellow !important;
+  color: $gb-dark-yellow !important;
 }
 .text-blue {
-  color: $gb-dm-dark-blue !important;
+  color: $gb-dark-blue !important;
 }
 .text-purple {
-  color: $gb-dm-dark-purple !important;
+  color: $gb-dark-purple !important;
 }
 .text-aqua {
-  color: $gb-dm-dark-aqua !important;
+  color: $gb-dark-aqua !important;
 }
 .text-orange {
-  color: $gb-dm-dark-orange !important;
+  color: $gb-dark-orange !important;
 }
 .text-gray {
-  color: $gb-dm-dark-gray !important;
+  color: $gb-dark-gray !important;
+}
+.text-coffe {
+  color: $gb-fg4 !important;
 }

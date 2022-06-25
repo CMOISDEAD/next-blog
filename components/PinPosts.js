@@ -8,8 +8,8 @@ export const PinPosts = () => {
   return (
     <div className="my-1">
       <h5>Pinned posts</h5>
-      <div class="pinned-posts">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div className="pinned-posts">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
           {posts.slice(0, 3).map((item, i) => {
             return (
               <Link
@@ -17,25 +17,25 @@ export const PinPosts = () => {
                 href={`/posts/${item.id}?title=${item.title}`}
                 key={i}
               >
-                <a class="card-link">
-                  <div class="card">
-                    <div class="card-body">
-                      <div class="card-title ">
-                        <span class="text-green">
+                <a className="card-link">
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="card-title ">
+                        <span className="text-green">
                           <AiFillPushpin />{" "}
                         </span>
                         {item.title}
                       </div>
-                      <div class="card-text">
+                      <div className="card-text">
                         Sit magnam nostrum dolores iste eveniet. Ipsa maiores
                         assumenda cumque perferendis rem laborum Vitae incidunt
                         corporis eum sed optio Expedita dolore quia dolorem
                         facere possimus Accusamus autem amet iusto aspernatur.
                       </div>
                     </div>
-                    <div class="card-footer text-center">
-                      <div class="card-text">
-                        <small class="text-muted">
+                    <div className="card-footer text-center">
+                      <div className="card-text">
+                        <small className="text-muted">
                           {`${item.timestamp} - ${item.author}`}
                         </small>
                       </div>

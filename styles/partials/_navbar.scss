@@ -1,14 +1,14 @@
 @import "./colors";
 
 nav.navbar {
-  background: $gb-dm-bg0 !important;
+  background: $gb-bg0 !important;
   a {
-    color: $gb-dm-fg1 !important;
+    color: $gb-fg1 !important;
     &:hover {
-      color: $gb-dm-dark-yellow !important;
+      color: $gb-dark-yellow !important;
     }
     &.active {
-      color: $gb-dm-dark-orange !important;
+      color: $gb-dark-orange !important;
     }
   }
 }

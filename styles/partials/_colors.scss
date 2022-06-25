@@ -3,75 +3,172 @@
 // ----------------------------------------------------------------------------
 
 // Dark Background
-$gb-dm-bg0: #282828;
-$gb-dm-bg0-hard: #1d2021;
-$gb-dm-bg0-soft: #32302f;
-$gb-dm-bg1: #3c3836;
-$gb-dm-bg2: #504945;
-$gb-dm-bg3: #665c54;
-$gb-dm-bg4: #7c6f64;
+$gb-bg0: #282828;
+$gb-bg0-hard: #1d2021;
+$gb-bg0-soft: #32302f;
+$gb-bg1: #3c3836;
+$gb-bg2: #504945;
+$gb-bg3: #665c54;
+$gb-bg4: #7c6f64;
 
 // Dark Foreground
-$gb-dm-fg0: #fbf1c7;
-$gb-dm-fg1: #ebdbb2;
-$gb-dm-fg2: #d5c4a1;
-$gb-dm-fg3: #bdae93;
-$gb-dm-fg4: #a89984;
+$gb-fg0: #fbf1c7;
+$gb-fg1: #ebdbb2;
+$gb-fg2: #d5c4a1;
+$gb-fg3: #bdae93;
+$gb-fg4: #a89984;
 
 // Dark Colors
-$gb-dm-dark-red: #cc241d;
-$gb-dm-dark-green: #98971a;
-$gb-dm-dark-yellow: #d79921;
-$gb-dm-dark-blue: #458588;
-$gb-dm-dark-purple: #b16286;
-$gb-dm-dark-aqua: #689d6a;
-$gb-dm-dark-orange: #d65d0e;
-$gb-dm-dark-gray: #928374;
+$gb-dark-red: #cc241d;
+$gb-dark-green: #98971a;
+$gb-dark-yellow: #d79921;
+$gb-dark-blue: #458588;
+$gb-dark-purple: #b16286;
+$gb-dark-aqua: #689d6a;
+$gb-dark-orange: #d65d0e;
+$gb-dark-gray: #928374;
 
-$gb-dm-light-red: #fb4934;
-$gb-dm-light-green: #b8bb26;
-$gb-dm-light-yellow: #fabd2f;
-$gb-dm-light-blue: #83a598;
-$gb-dm-light-purple: #d3869b;
-$gb-dm-light-aqua: #8ec07c;
-$gb-dm-light-orange: #f38019;
-$gb-dm-light-gray: #a89984;
+$gb-light-red: #fb4934;
+$gb-light-green: #b8bb26;
+$gb-light-yellow: #fabd2f;
+$gb-light-blue: #83a598;
+$gb-light-purple: #d3869b;
+$gb-light-aqua: #8ec07c;
+$gb-light-orange: #f38019;
+$gb-light-gray: #a89984;
 
 // ----------------------------------------------------------------------------
 // Light Mode
 // ----------------------------------------------------------------------------
 
 // Light Background
-$gb-lm-bg0: #fbf1c7;
-$gb-lm-bg0-hard: #f9f5d7;
-$gb-lm-bg0-soft: #f2e5bc;
-$gb-lm-bg1: #ebdbb2;
-$gb-lm-bg2: #d5c4a1;
-$gb-lm-bg3: #bdae93;
-$gb-lm-bg4: #a89984;
+$gb-lg-bg0: #fbf1c7;
+$gb-lg-bg0-hard: #f9f5d7;
+$gb-lg-bg0-soft: #f2e5bc;
+$gb-lg-bg1: #ebdbb2;
+$gb-lg-bg2: #d5c4a1;
+$gb-lg-bg3: #bdae93;
+$gb-lg-bg4: #a89984;
 
 // Light Foreground
-$gb-lm-fg0: #282828;
-$gb-lm-fg1: #3c3836;
-$gb-lm-fg2: #504945;
-$gb-lm-fg3: #665c54;
-$gb-lm-fg4: #7c6f64;
+$gb-lg-fg0: #282828;
+$gb-lg-fg1: #3c3836;
+$gb-lg-fg2: #504945;
+$gb-lg-fg3: #665c54;
+$gb-lg-fg4: #7c6f64;
 
 // Light Colors
-$gb-lm-dark-red: #cc241d;
-$gb-lm-dark-green: #98971a;
-$gb-lm-dark-yellow: #d79921;
-$gb-lm-dark-blue: #458588;
-$gb-lm-dark-purple: #b16286;
-$gb-lm-dark-aqua: #689d6a;
-$gb-lm-dark-orange: #d65d0e;
-$gb-lm-dark-gray: #928374;
+$gb-lg-dark-red: #cc241d;
+$gb-lg-dark-green: #98971a;
+$gb-lg-dark-yellow: #d79921;
+$gb-lg-dark-blue: #458588;
+$gb-lg-dark-purple: #b16286;
+$gb-lg-dark-aqua: #689d6a;
+$gb-lg-dark-orange: #d65d0e;
+$gb-lg-dark-gray: #928374;
 
-$gb-lm-light-red: #9d0006;
-$gb-lm-light-green: #79740e;
-$gb-lm-light-yellow: #b57614;
-$gb-lm-light-blue: #076678;
-$gb-lm-light-purple: #8f3f71;
-$gb-lm-light-aqua: #427b58;
-$gb-lm-light-orange: #af3a03;
-$gb-lm-light-gray: #7c6f64;
+$gb-lg-light-red: #9d0006;
+$gb-lg-light-green: #79740e;
+$gb-lg-light-yellow: #b57614;
+$gb-lg-light-blue: #076678;
+$gb-lg-light-purple: #8f3f71;
+$gb-lg-light-aqua: #427b58;
+$gb-lg-light-orange: #af3a03;
+$gb-lg-light-gray: #7c6f64;
+
+// Dark mode ?
+$themes: (
+  default: (
+    gb-bg0: $gb-bg0,
+    gb-bg0-hard: $gb-bg0-hard,
+    gb-bg0-soft: $gb-bg0-soft,
+    gb-bg1: $gb-bg1,
+    gb-bg2: $gb-bg2,
+    gb-bg3: $gb-bg3,
+    gb-bg4: $gb-bg4,
+
+    // Dark Foreground
+    gb-fg0: $gb-fg0,
+    gb-fg1: $gb-fg1,
+    gb-fg2: $gb-fg2,
+    gb-fg3: $gb-fg3,
+    gb-fg4: $gb-fg4,
+
+    // Dark Colors
+    gb-dark-red: $gb-dark-red,
+    gb-dark-green: $gb-dark-green,
+    gb-dark-yellow: $gb-dark-yellow,
+    gb-dark-blue: $gb-dark-blue,
+    gb-dark-purple: $gb-dark-purple,
+    gb-dark-aqua: $gb-dark-aqua,
+    gb-dark-orange: $gb-dark-orange,
+    gb-dark-gray: $gb-dark-gray,
+
+    gb-light-red: $gb-light-red,
+    gb-light-green: $gb-light-green,
+    gb-light-yellow: $gb-light-yellow,
+    gb-light-blue: $gb-light-blue,
+    gb-light-purple: $gb-light-purple,
+    gb-light-aqua: $gb-light-aqua,
+    gb-light-orange: $gb-light-orange,
+    gb-light-gray: $gb-light-gray,
+  ),
+  light: (
+    gb-bg0: $gb-lg-bg0,
+    gb-bg0-hard: $gb-lg-bg0-hard,
+    gb-bg0-soft: $gb-lg-bg0-soft,
+    gb-bg1: $gb-lg-bg1,
+    gb-bg2: $gb-lg-bg2,
+    gb-bg3: $gb-lg-bg3,
+    gb-bg4: $gb-lg-bg4,
+
+    // Light Foreground
+    gb-fg0: $gb-lg-fg0,
+    gb-fg1: $gb-lg-fg1,
+    gb-fg2: $gb-lg-fg2,
+    gb-fg3: $gb-lg-fg3,
+    gb-fg4: $gb-lg-fg4,
+
+    // Light Colors
+    gb-dark-red: $gb-lg-dark-red,
+    gb-dark-green: $gb-lg-dark-green,
+    gb-dark-yellow: $gb-lg-dark-yellow,
+    gb-dark-blue: $gb-lg-dark-blue,
+    gb-dark-purple: $gb-lg-dark-purple,
+    gb-dark-aqua: $gb-lg-dark-aqua,
+    gb-dark-orange: $gb-lg-dark-orange,
+    gb-dark-gray: $gb-lg-dark-gray,
+
+    gb-light-red: $gb-lg-light-red,
+    gb-light-green: $gb-lg-light-green,
+    gb-light-yellow: $gb-lg-light-yellow,
+    gb-light-blue: $gb-lg-light-blue,
+    gb-light-purple: $gb-lg-light-purple,
+    gb-light-aqua: $gb-lg-light-aqua,
+    gb-light-orange: $gb-lg-light-orange,
+    gb-light-gray: $gb-lg-light-gray,
+  ),
+);
+
+@mixin themed() {
+  @each $theme, $map in $themes {
+    .theme--#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), "#{$key}");
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value,
+          )
+        ) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function t($key) {
+  @return map-get($theme-map, $key);
+}

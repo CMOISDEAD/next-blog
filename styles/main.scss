@@ -8,6 +8,8 @@
 @import "partials/footer";
 @import "partials/cards";
 @import "partials/post";
+@import "partials/buttons";
+@import "partials/forms";
 
 // Custom config
 * {
@@ -21,8 +23,8 @@ body {
   font-family: "Source Code Pro", monospace, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif !important;
-  background: $gb-dm-bg0-hard !important;
-  color: $gb-dm-fg0 !important;
+  background: $gb-bg0-hard !important;
+  color: $gb-fg0 !important;
 }
 
 a.card-link,
