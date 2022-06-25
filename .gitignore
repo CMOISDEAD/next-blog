@@ -2,7 +2,7 @@
 
 # User files
 /utils/posts/
-/utils/*.js
+/utils/scripts/
 
 # dependencies
 /node_modules

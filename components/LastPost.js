@@ -1,4 +1,5 @@
 import Link from "next/link";
+import moment from "moment";
 import { AiFillFire } from "react-icons/ai";
 import post_json from "../utils/posts.json";
 
@@ -29,7 +30,7 @@ export const LastPost = () => {
             <div className="card-footer text-center">
               <div className="card-text">
                 <small className="text-muted">
-                  {timestamp} - {author}
+                  {moment(moment.unix(timestamp / 1000)).fromNow()} - {author}
                 </small>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import moment from "moment";
 import { Layout } from "../../components/Layout";
 import post_json from "../../utils/posts.json";
 
@@ -26,7 +27,9 @@ export default function Blog() {
                           </p>
                           <p className="card-text">
                             <small className="text-muted">
-                              {post.timestamp}
+                              {moment(
+                                moment.unix(post.timestamp / 1000)
+                              ).fromNow()}
                             </small>
                           </p>
                         </div>

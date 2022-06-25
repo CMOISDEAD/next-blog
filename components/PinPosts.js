@@ -1,4 +1,5 @@
 import Link from "next/link";
+import moment from "moment";
 import { AiFillPushpin } from "react-icons/ai";
 import post_json from "../utils/posts.json";
 
@@ -10,11 +11,11 @@ export const PinPosts = () => {
       <h5>Pinned posts</h5>
       <div className="pinned-posts">
         <div className="row row-cols-1 row-cols-md-3 g-4">
-          {posts.slice(0, 3).map((item, i) => {
+          {posts.slice(0, 3).map((post, i) => {
             return (
               <Link
                 clasname="col"
-                href={`/posts/${item.id}?title=${item.title}`}
+                href={`/posts/${post.id}?title=${post.title}`}
                 key={i}
               >
                 <a className="card-link">
@@ -24,7 +25,7 @@ export const PinPosts = () => {
                         <span className="text-green">
                           <AiFillPushpin />{" "}
                         </span>
-                        {item.title}
+                        {post.title}
                       </div>
                       <div className="card-text">
                         Sit magnam nostrum dolores iste eveniet. Ipsa maiores
@@ -36,7 +37,9 @@ export const PinPosts = () => {
                     <div className="card-footer text-center">
                       <div className="card-text">
                         <small className="text-muted">
-                          {`${item.timestamp} - ${item.author}`}
+                          {`${moment(
+                            moment.unix(post.timestamp / 1000)
+                          ).fromNow()} - ${post.author}`}
                         </small>
                       </div>
                     </div>
