@@ -5,10 +5,10 @@ nav.navbar {
   a {
     color: $gb-dm-fg1 !important;
     &:hover {
-      color: $gb-dm-fg2 !important;
+      color: $gb-dm-dark-yellow !important;
     }
     &.active {
-      color: $gb-dm-fg4 !important;
+      color: $gb-dm-dark-orange !important;
     }
   }
 }

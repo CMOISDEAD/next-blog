@@ -8,12 +8,12 @@ export default function Blog() {
   return (
     <Layout>
       <h1 className="text-center">Posts</h1>
-      <div className="row row-cols-1 row-cols-md-2 g-4">
+      <div className="row row-cols-1 row-cols-md-2 g-4 my-1">
         {posts.map((post, i) => {
           return (
             <div className="col" key={i}>
               <Link href={`/posts/${post.id}?title=${post.title}`}>
-                <a>
+                <a className="card-link">
                   <div className="card mb-3 h-100" style={{ width: "auto" }}>
                     <div className="row g-0">
                       <div className="col-md-8">
@@ -39,15 +39,6 @@ export default function Blog() {
           );
         })}
       </div>
-      <style jsx>{`
-        a {
-          color: inherit;
-          text-decoration: inherit;
-        }
-        .card {
-          transition: all 0.5s ease-out;
-        }
-      `}</style>
     </Layout>
   );
 }

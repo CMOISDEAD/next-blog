@@ -3,7 +3,9 @@
 
 // Import partials
 @import "partials/colors";
+@import "partials/text";
 @import "partials/navbar";
+@import "partials/footer";
 @import "partials/cards";
 @import "partials/post";
 
@@ -18,11 +20,13 @@ body {
   margin: 0;
   font-family: "Source Code Pro", monospace, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
+    Helvetica Neue, sans-serif !important;
   background: $gb-dm-bg0-hard !important;
   color: $gb-dm-fg0 !important;
 }
 
-.container {
-  background: $gb-dm-bg0-hard;
+a.card-link,
+a.social-link {
+  color: inherit;
+  text-decoration: inherit;
 }

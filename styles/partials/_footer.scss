@@ -1,0 +1,34 @@
+// Footer
+@import "./colors";
+
+.footer {
+  background: $gb-dm-bg0 !important;
+
+  .footer-box {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    .social-networks {
+      font-size: 1.5rem;
+      .social-link {
+        padding: 0 2vw;
+        transition: all 0.5s ease-out;
+      }
+      .github {
+        &:hover {
+          color: $gb-dm-bg0-hard;
+        }
+      }
+      .linkedin {
+        &:hover {
+          color: $gb-dm-dark-blue;
+        }
+      }
+      .portfolio {
+        &:hover {
+          color: $gb-dm-dark-aqua;
+        }
+      }
+    }
+  }
+}
