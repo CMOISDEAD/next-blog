@@ -1,10 +1,21 @@
 import Link from "next/link";
-import moment from "moment";
+import { Card } from "./Card";
 import { AiFillFire } from "react-icons/ai";
 import post_json from "../utils/posts.json";
 
 const { posts } = post_json;
 const { id, title, author, timestamp } = posts[posts.length - 1];
+
+const Header = ({ title }) => {
+  return (
+    <>
+      <span class="text-orange">
+        <AiFillFire />{" "}
+      </span>
+      {title}
+    </>
+  );
+};
 
 export const LastPost = () => {
   return (
@@ -12,29 +23,11 @@ export const LastPost = () => {
       <h5>Last Post</h5>
       <Link href={`/posts/${id}?title=${title}`}>
         <a className="card-link">
-          <div className="card ">
-            <div className="card-body">
-              <div className="card-title">
-                <span className="text-orange">
-                  <AiFillFire />{" "}
-                </span>
-                {title}
-              </div>
-              <div className="card-text">
-                Elit debitis fuga dolore aperiam neque Illum obcaecati saepe
-                perferendis libero ipsam maiores ut. Sed quod sed doloribus
-                cumque consectetur Neque sapiente ipsam provident ducimus illo.
-                Perspiciatis error excepturi eaque.
-              </div>
-            </div>
-            <div className="card-footer text-center">
-              <div className="card-text">
-                <small className="text-muted">
-                  {moment(moment.unix(timestamp / 1000)).fromNow()} - {author}
-                </small>
-              </div>
-            </div>
-          </div>
+          <Card
+            header={<Header title={title} />}
+            author={author}
+            timestamp={timestamp}
+          />
         </a>
       </Link>
     </div>
