@@ -1,35 +1,35 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": 0,
       "title": "Best React.js Books You Have To Read",
       "content": "<!-- #Best React.js Books You Have To Read# -->\n<div>\n<div class=\"content\">\n    If your template.html file is just HTML and not a <i>React component</i>,\n    then you can't require it in the same way you would do with a JS file.\n    However, if you are using <a href=\"#\">Browserify</a> — there is a transform\n    called stringify which will allow you to require non-js files as strings.\n    Once you have added the transform, you will be able to require HTML files\n    and they will export as though they were just <em>strings</em>. Once you\n    have required the HTML file, you'll have to inject the HTML string into your\n    component, using the dangerouslySetInnerHTML prop.\n    <table>\n       \n      <tr>\n           \n        <th>Company</th>\n           \n        <th>Contact</th>\n           \n        <th>Country</th>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Alfreds Futterkiste</td>\n           \n        <td>Maria Anders</td>\n           \n        <td>Germany</td>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Centro comercial Moctezuma</td>\n           \n        <td>Francisco Chang</td>\n           \n        <td>Mexico</td>\n         \n      </tr>\n    </table>\n  </div>\n</div>\n",
       "author": "camilo",
       "timestamp": "1656197985026"
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Isomorphic JavaScript Web Development",
       "content": "<!-- #Isomorphic JavaScript Web Development# -->\n<div>\n<div class=\"content\">\n    If your template.html file is just HTML and not a <i>React component</i>,\n    then you can't require it in the same way you would do with a JS file.\n    However, if you are using <a href=\"#\">Browserify</a> — there is a transform\n    called stringify which will allow you to require non-js files as strings.\n    Once you have added the transform, you will be able to require HTML files\n    and they will export as though they were just <em>strings</em>. Once you\n    have required the HTML file, you'll have to inject the HTML string into your\n    component, using the dangerouslySetInnerHTML prop.\n    <table>\n       \n      <tr>\n           \n        <th>Company</th>\n           \n        <th>Contact</th>\n           \n        <th>Country</th>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Alfreds Futterkiste</td>\n           \n        <td>Maria Anders</td>\n           \n        <td>Germany</td>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Centro comercial Moctezuma</td>\n           \n        <td>Francisco Chang</td>\n           \n        <td>Mexico</td>\n         \n      </tr>\n    </table>\n  </div></div>\n",
       "author": "camilo",
       "timestamp": "1656198011621"
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "React design patterns and best practices",
       "content": "<!-- #React design patterns and best practices# -->\n<div>\n<div class=\"content\">\n    If your template.html file is just HTML and not a <i>React component</i>,\n    then you can't require it in the same way you would do with a JS file.\n    However, if you are using <a href=\"#\">Browserify</a> — there is a transform\n    called stringify which will allow you to require non-js files as strings.\n    Once you have added the transform, you will be able to require HTML files\n    and they will export as though they were just <em>strings</em>. Once you\n    have required the HTML file, you'll have to inject the HTML string into your\n    component, using the dangerouslySetInnerHTML prop.\n    <table>\n       \n      <tr>\n           \n        <th>Company</th>\n           \n        <th>Contact</th>\n           \n        <th>Country</th>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Alfreds Futterkiste</td>\n           \n        <td>Maria Anders</td>\n           \n        <td>Germany</td>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Centro comercial Moctezuma</td>\n           \n        <td>Francisco Chang</td>\n           \n        <td>Mexico</td>\n         \n      </tr>\n    </table>\n  </div></div>\n",
       "author": "camilo",
       "timestamp": "1656198069295"
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "What are Progressive Web Applications? Get started with creating PWA",
       "content": "<!-- #What are Progressive Web Applications? Get started with creating PWA# -->\n<div>\n<div class=\"content\">\n    If your template.html file is just HTML and not a <i>React component</i>,\n    then you can't require it in the same way you would do with a JS file.\n    However, if you are using <a href=\"#\">Browserify</a> — there is a transform\n    called stringify which will allow you to require non-js files as strings.\n    Once you have added the transform, you will be able to require HTML files\n    and they will export as though they were just <em>strings</em>. Once you\n    have required the HTML file, you'll have to inject the HTML string into your\n    component, using the dangerouslySetInnerHTML prop.\n    <table>\n       \n      <tr>\n           \n        <th>Company</th>\n           \n        <th>Contact</th>\n           \n        <th>Country</th>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Alfreds Futterkiste</td>\n           \n        <td>Maria Anders</td>\n           \n        <td>Germany</td>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Centro comercial Moctezuma</td>\n           \n        <td>Francisco Chang</td>\n           \n        <td>Mexico</td>\n         \n      </tr>\n    </table>\n  </div></div>\n",
       "author": "camilo",
       "timestamp": "1656197815470"
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "React and React Native",
       "content": "<!-- #React and React Native# -->\n<div>\n<div class=\"content\">\n    If your template.html file is just HTML and not a <i>React component</i>,\n    then you can't require it in the same way you would do with a JS file.\n    However, if you are using <a href=\"#\">Browserify</a> — there is a transform\n    called stringify which will allow you to require non-js files as strings.\n    Once you have added the transform, you will be able to require HTML files\n    and they will export as though they were just <em>strings</em>. Once you\n    have required the HTML file, you'll have to inject the HTML string into your\n    component, using the dangerouslySetInnerHTML prop.\n    <table>\n       \n      <tr>\n           \n        <th>Company</th>\n           \n        <th>Contact</th>\n           \n        <th>Country</th>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Alfreds Futterkiste</td>\n           \n        <td>Maria Anders</td>\n           \n        <td>Germany</td>\n         \n      </tr>\n       \n      <tr>\n           \n        <td>Centro comercial Moctezuma</td>\n           \n        <td>Francisco Chang</td>\n           \n        <td>Mexico</td>\n         \n      </tr>\n    </table>\n  </div></div>\n",
       "author": "camilo",

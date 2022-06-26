@@ -9,7 +9,7 @@ export default function Post({ title, content, timestamp, author }) {
     <Layout>
       <div className="post">
         <h1 className="text-center">{title}</h1>
-        <p className="text-muted">{`Date: yesterday - Author: ${author}`}</p>
+        <p className="text-muted">{`Date: ${timestamp} - Author: ${author}`}</p>
         <hr />
         <div className="content">{ReactHtmlParser(content)}</div>
       </div>
